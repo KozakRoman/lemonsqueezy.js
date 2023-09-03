@@ -22,7 +22,7 @@
     "javascript"
   ],
   "files": [
-    "./dist/*",
+    "./*",
     "README.md"
   ],
   "scripts": {
