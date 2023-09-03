@@ -28,7 +28,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "preinstall": "npm run build",
+    "preinstall": "npm i && npm run build",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
