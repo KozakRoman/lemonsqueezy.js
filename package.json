@@ -22,13 +22,12 @@
     "javascript"
   ],
   "files": [
-    "./*",
+    "./dist/*",
     "README.md"
   ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "preinstall": "npm i && npm run build",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
